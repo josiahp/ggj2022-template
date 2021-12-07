@@ -119,7 +119,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4338863333680727679}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2153821147152294546}
+        m_TargetAssemblyTypeName: HowToPlayPanelHandler, Assembly-CSharp
+        m_MethodName: CloseHowToPlayPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4338863334285013245
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,6 +143,7 @@ GameObject:
   - component: {fileID: 4338863334285013218}
   - component: {fileID: 4338863334285013216}
   - component: {fileID: 4338863334285013219}
+  - component: {fileID: 2153821147152294546}
   m_Layer: 5
   m_Name: HowToPlayPanel
   m_TagString: Untagged
@@ -198,6 +211,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2153821147152294546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338863334285013245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23bc20921303374ca0730eb71f3f321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4338863334533164597
 GameObject:
   m_ObjectHideFlags: 0
